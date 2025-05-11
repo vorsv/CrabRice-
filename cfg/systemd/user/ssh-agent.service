@@ -1,0 +1,10 @@
+# /home/vorsv/.config/systemd/user/ssh-agent.service
+[Unit]
+Description=SSH key agent
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ssh-agent -D -a %t/ssh-agent.socket
+
+[Install]
+WantedBy=default.target

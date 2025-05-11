@@ -1,0 +1,27 @@
+[
+  {
+    "name": "_Lock screen",
+    "exec": "swaylock -f -i '~/wallpapers/lockscreen.jpg'",
+    "icon": "/usr/share/icons/BeautyLine/actions/scalable/system-lock-screen.svg"
+  },
+  {
+  	"name": "Suspen_d",
+    "exec": "systemctl suspend",
+  	"icon": "/usr/share/icons/BeautyLine/actions/scalable/system-suspend.svg"
+  },
+  {
+    "name": "Logou_t",
+    "exec": "hyprctl dispatch exit 0",
+    "icon": "/usr/share/icons/BeautyLine/actions/scalable/system-log-out.svg"
+  },
+  {
+    "name": "_Reboot",
+    "exec": "systemctl reboot",
+    "icon": "/usr/share/icons/BeautyLine/actions/scalable/system-reboot.svg"
+  },
+  {
+    "name": "_Shutdown",
+    "exec": "systemctl -i poweroff",
+    "icon": "/usr/share/icons/BeautyLine/actions/scalable/system-shutdown.svg"
+  }
+]

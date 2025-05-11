@@ -1,0 +1,36 @@
+# Set a dark background
+color 282828
+
+# Set a background image and fill the screen
+image ~/wallpapers/lockscreen.jpg
+scaling fill
+
+# Indicator colors
+line-color 00000000
+inside-color 00000088
+ring-color dbb221
+key-hl-color ebdbb2
+bs-hl-color d75f5f
+separator-color 00000000
+
+# Text color
+text-color ebdbb2
+text-caps-lock-color ebdbb2
+
+# Font
+font Sans
+font-size 24
+
+# Show an indicator for failed attempts
+show-failed-attempts
+
+# Indicator appearance
+indicator-radius 120
+indicator-thickness 10
+indicator-caps-lock
+
+# Ignore empty password attempts
+ignore-empty-password
+
+# Fade in effect
+fade-in 0.5
